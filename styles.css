@@ -1,11 +1,54 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
+
+nav {
+  background-color: blueviolet;
+  padding: 20px;
+}
+nav li {
+  display: inline;
+}
+nav a {
+  font-size: 16px;
+  text-decoration: none;
+}
+h1,
+h3 {
+  text-align: center;
+  margin: 32px;
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.about,
+.contact {
+  position: relative;
+  float: right;
+}
+.about {
+  margin-left: 10px;
+}
+
 .flexbox-container {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
+  padding: 32px;
+}
+.flexbox-container img {
+  max-width: 50%;
+  margin-right: 16px;
+}
+
+.row {
+  width: 50%;
 }
 
 .flex-item-1,
@@ -14,6 +57,11 @@
 .flex-item-4,
 .flex-item-5,
 .flex-item-6 {
-  width: 260px;
-  border: 1px solid grey;
+  border: 0.5px solid grey;
+  border-radius: 10px;
+  margin: 16px;
+}
+
+footer {
+  background-color: greenyellow;
 }
