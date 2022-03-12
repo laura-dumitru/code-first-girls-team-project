@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .flexbox-container {
   display: flex;
   justify-content: space-evenly;
@@ -9,6 +14,6 @@
 .flex-item-4,
 .flex-item-5,
 .flex-item-6 {
-  width: 400px;
+  width: 260px;
   border: 1px solid grey;
 }
