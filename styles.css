@@ -4,7 +4,7 @@
 }
 
 nav {
-  background-color: blueviolet;
+  background-color: #8a7998;
   padding: 20px;
 }
 nav li {
@@ -27,6 +27,10 @@ img {
   display: block;
   margin: 0 auto;
 }
+hr {
+  width: 50%;
+  margin: 0 auto;
+}
 
 .about,
 .contact {
@@ -39,6 +43,8 @@ img {
 
 .flexbox-container {
   display: flex;
+  max-width: 860px;
+  margin: 0 auto;
   flex-direction: row;
   padding: 32px;
 }
