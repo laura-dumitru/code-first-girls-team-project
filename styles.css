@@ -1,0 +1,14 @@
+.flexbox-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flex-item-1,
+.flex-item-2,
+.flex-item-3,
+.flex-item-4,
+.flex-item-5,
+.flex-item-6 {
+  width: 400px;
+  border: 1px solid grey;
+}
