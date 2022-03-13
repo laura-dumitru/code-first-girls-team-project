@@ -4,7 +4,7 @@
 }
 
 nav {
-  background-color: #8a7998;
+  background-color: #b2a2c2;
   padding: 20px;
 }
 nav li {
@@ -21,6 +21,7 @@ h3 {
 }
 a {
   text-decoration: none;
+  color: black;
 }
 
 img {
@@ -28,7 +29,8 @@ img {
   margin: 0 auto;
 }
 hr {
-  width: 50%;
+  border: 2px solid #bfd38f;
+  width: 25%;
   margin: 0 auto;
 }
 
@@ -63,16 +65,21 @@ hr {
 .flex-item-4,
 .flex-item-5,
 .flex-item-6 {
-  border: 0.5px solid grey;
+  border: 1px solid #b2a2c2;
   border-radius: 10px;
+  box-shadow: 2px 2px 6px #b2a2c2;
   margin: 16px;
 }
 
 footer {
-  background-color: greenyellow;
+  margin-top: 60px;
+  background-color: #bfd38f;
   padding: 20px;
   text-align: center;
 }
 footer p {
   margin-bottom: 10px;
+}
+footer a {
+  font-size: 24px;
 }
