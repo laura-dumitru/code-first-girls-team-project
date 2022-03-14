@@ -1,8 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
 }
-
+body {
+  color: #261e2d;
+  font-family: "Mulish", sans-serif;
+  font-weight: 300;
+  font-size: 18pts;
+}
 nav {
   background-color: #b2a2c2;
   padding: 24px;
@@ -15,20 +22,34 @@ nav a {
   font-size: 16px;
   text-decoration: none;
 }
-h1 {
-  font-family: "Mulish", sans-serif;
-}
+
 h1,
+h2,
 h3 {
   text-align: center;
   margin: 32px;
 }
+h1,
+h2 {
+  font-weight: 700;
+}
+h1 {
+  font-size: 40pts;
+}
+h2 {
+  font-size: 18pts;
+}
+h3 {
+  font-weight: 300;
+  font-size: 24pts;
+}
+
 a {
   text-decoration: none;
   color: black;
 }
 a:hover {
-  color: #d18373;
+  color: #6b5380;
 }
 
 img {
@@ -38,7 +59,7 @@ img {
 
 hr {
   border: 2px solid #bfd38f;
-  width: 25%;
+  width: 240px;
   margin: 0 auto;
 }
 p {
@@ -65,7 +86,7 @@ p {
   margin-right: 16px;
 }
 .flexbox-container h3:hover {
-  color: #d18373;
+  color: #6b5380;
 }
 .section-text {
   text-align: center;
@@ -83,7 +104,7 @@ p {
 .flex-item-6 {
   border: 1px solid #b2a2c2;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px #d8cae6;
+  box-shadow: 2px 2px 8px rgba(138, 121, 152, 0.7); /*#8a7998*/
   margin: 16px;
 }
 
@@ -104,7 +125,9 @@ iframe {
 }
 
 footer {
+  font-size: 16px;
   margin-top: 60px;
+  color: white;
   background-color: #bfd38f;
   padding: 16px;
   text-align: center;
@@ -113,5 +136,5 @@ footer p {
   margin-bottom: 10px;
 }
 footer a {
-  font-size: 24px;
+  color: white;
 }
