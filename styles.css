@@ -14,7 +14,6 @@ body {
 
 nav {
   background-color: #b2a2c2;
-  height: 25px;
   padding: 24px;
 }
 nav li {
@@ -147,14 +146,18 @@ iframe {
   padding: 32px;
 }
 
+.last-item {
+  margin-bottom: 240px;
+}
+
 footer {
-  margin-top: 60px;
   color: white;
   background-color: #bfd38f;
-  height: 25px;
-  margin-top: 60px;
-  padding: 16px;
+  padding: 24px;
   text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 footer p {
   margin-bottom: 10px;
@@ -163,6 +166,7 @@ footer a {
   color: white;
 }
 .form {
+  font-size: 16px;
   width: 40%;
   display: block;
   margin: 0 auto;
@@ -172,5 +176,16 @@ footer a {
   box-shadow: 2px 2px 8px rgba(138, 121, 152, 0.7); /*#8a7998*/
 }
 .btn {
-  width: 20%;
+  font-size: 16px !important;
+  background-color: #b2a2c2;
+  padding: 20px;
+  width: 200px;
+  margin: 20px auto;
+  border-radius: 30px;
+  padding: 16px 24px;
+  font-size: 20px;
+  line-height: 22px;
+}
+.btn:hover {
+  background-color: #6b5380;
 }
