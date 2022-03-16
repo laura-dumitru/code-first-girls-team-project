@@ -60,7 +60,7 @@ img {
 hr {
   border: 2px solid #bfd38f;
   width: 240px;
-  margin: 0 auto;
+  margin: 32px auto;
 }
 p {
   line-height: 1.5;
@@ -76,7 +76,7 @@ p {
 
 .flexbox-container {
   display: flex;
-  max-width: 860px;
+  max-width: 960px;
   margin: 0 auto;
   flex-direction: row;
   padding: 32px;
@@ -108,16 +108,30 @@ p {
   margin: 16px;
 }
 
-.videos {
+.videos,
+.recommendation,
+.sleep-steps {
   max-width: 40%;
   margin: 0 auto;
 }
+.sleep-steps {
+  max-width: 50%;
+}
+
 .videos p {
   padding-left: 32px;
 }
 .videos h2 {
   text-align: center;
   margin: 24px;
+}
+.sleep-steps li {
+  list-style: none;
+}
+.sleep-steps li .fa {
+  font-size: 24px;
+  color: #b2a2c2;
+  margin: 10px;
 }
 
 iframe {
