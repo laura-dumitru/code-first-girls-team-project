@@ -11,8 +11,10 @@ body {
   font-size: 18pts;
   background: linear-gradient(#f7eeff, #fbfff0);
 }
+
 nav {
   background-color: #b2a2c2;
+  height: 25px;
   padding: 24px;
 }
 nav li {
@@ -22,6 +24,19 @@ nav a {
   color: white;
   font-size: 16px;
   text-decoration: none;
+}
+.about,
+.contact {
+  position: relative;
+  float: right;
+}
+.contact {
+  margin-left: 10px;
+}
+input,
+textarea {
+  border: none !important;
+  background-color: white !important;
 }
 
 h1,
@@ -47,7 +62,7 @@ h3 {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #261e2d;
 }
 a:hover {
   color: #6b5380;
@@ -66,14 +81,6 @@ hr {
 p {
   line-height: 1.5;
 }
-.about,
-.contact {
-  position: relative;
-  float: right;
-}
-.contact {
-  margin-left: 10px;
-}
 
 .flexbox-container {
   display: flex;
@@ -91,6 +98,7 @@ p {
 }
 .section-text {
   text-align: center;
+  padding: 10px;
 }
 
 .row {
@@ -140,10 +148,11 @@ iframe {
 }
 
 footer {
-  font-size: 16px;
   margin-top: 60px;
   color: white;
   background-color: #bfd38f;
+  height: 25px;
+  margin-top: 60px;
   padding: 16px;
   text-align: center;
 }
@@ -152,4 +161,16 @@ footer p {
 }
 footer a {
   color: white;
+}
+.form {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+  padding: 8px;
+  border: 1px solid #b2a2c2;
+  border-radius: 12px;
+  box-shadow: 2px 2px 8px rgba(138, 121, 152, 0.7); /*#8a7998*/
+}
+.btn {
+  width: 20%;
 }
