@@ -9,6 +9,7 @@ body {
   font-family: "Mulish", sans-serif;
   font-weight: 300;
   font-size: 18pts;
+  background: linear-gradient(#f7eeff, #fbfff0);
 }
 nav {
   background-color: #b2a2c2;
