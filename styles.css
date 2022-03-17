@@ -176,8 +176,9 @@ footer a {
   box-shadow: 2px 2px 8px rgba(138, 121, 152, 0.7); /*#8a7998*/
 }
 .btn {
-  font-size: 16px !important;
+  font-size: 16px;
   background-color: #b2a2c2;
+  color: white;
   padding: 20px;
   width: 200px;
   margin: 20px auto;
@@ -186,6 +187,26 @@ footer a {
   font-size: 20px;
   line-height: 22px;
 }
-.btn:hover {
+.btn:hover,
+.yoga-container .btn:hover {
   background-color: #6b5380;
+}
+.yoga-container {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.yoga-container h3 {
+  margin: 24px;
+}
+.yoga-container .btn {
+  display: inline;
+  background-color: #b2a2c2;
+  color: white;
+  transition: all 200ms ease-in-out;
+  margin: 12px auto;
+  margin-right: 10px;
+  border-radius: 30px;
+  font-size: 16px;
 }
