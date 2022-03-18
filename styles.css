@@ -165,16 +165,6 @@ footer p {
 footer a {
   color: white;
 }
-.form {
-  font-size: 16px;
-  width: 40%;
-  display: block;
-  margin: 0 auto;
-  padding: 8px;
-  border: 1px solid #b2a2c2;
-  border-radius: 12px;
-  box-shadow: 2px 2px 8px rgba(138, 121, 152, 0.7); /*#8a7998*/
-}
 .btn {
   font-size: 16px;
   background-color: #b2a2c2;
@@ -208,5 +198,47 @@ footer a {
   margin: 12px auto;
   margin-right: 10px;
   border-radius: 30px;
+  outline: none;
   font-size: 16px;
+  cursor: pointer;
+}
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  max-width: 400px;
+  border-radius: 10px;
+  border: 1px solid #b2a2c2;
+  box-shadow: 2px 2px 8px rgba(138, 121, 152, 0.7); /*#8a7998*/
+}
+form input,
+form textarea {
+  margin: 8px 0;
+  padding: 10px;
+  outline: none;
+}
+form button {
+  background-color: #b2a2c2;
+  color: white;
+  width: 200px;
+  margin: 20px auto;
+  border: 0;
+  border-radius: 30px;
+  padding: 16px 24px;
+  line-height: 22px;
+  outline: none;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #6b5380;
+}
+.contact-container img {
+  max-width: 500px;
+  margin: 48px;
 }
