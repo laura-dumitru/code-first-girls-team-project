@@ -10,6 +10,8 @@ body {
   font-weight: 300;
   font-size: 18pts;
   background: linear-gradient(#f7eeff, #fbfff0);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 nav {
@@ -165,20 +167,9 @@ footer p {
 footer a {
   color: white;
 }
-.btn {
-  font-size: 16px;
-  background-color: #b2a2c2;
-  color: white;
-  padding: 20px;
-  width: 200px;
-  margin: 20px auto;
-  border-radius: 30px;
-  padding: 16px 24px;
-  font-size: 20px;
-  line-height: 22px;
-}
-.btn:hover,
-.yoga-container .btn:hover {
+
+.yoga-container button:hover,
+form button:hover {
   background-color: #6b5380;
 }
 .yoga-container {
@@ -190,18 +181,28 @@ footer a {
 .yoga-container h3 {
   margin: 24px;
 }
-.yoga-container .btn {
+.yoga-container button,
+.contact-container button {
+  font-size: 16px;
   display: inline;
   background-color: #b2a2c2;
   color: white;
   transition: all 200ms ease-in-out;
   margin: 12px auto;
   margin-right: 10px;
+  padding: 20px;
+  border: 0;
   border-radius: 30px;
+  width: 200px;
   outline: none;
   font-size: 16px;
   cursor: pointer;
 }
+.contact-container button {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
 .contact-container {
   display: flex;
   align-items: center;
@@ -223,21 +224,7 @@ form textarea {
   padding: 10px;
   outline: none;
 }
-form button {
-  background-color: #b2a2c2;
-  color: white;
-  width: 200px;
-  margin: 20px auto;
-  border: 0;
-  border-radius: 30px;
-  padding: 16px 24px;
-  line-height: 22px;
-  outline: none;
-  cursor: pointer;
-}
-form button:hover {
-  background-color: #6b5380;
-}
+
 .contact-container img {
   max-width: 500px;
   margin: 48px;
