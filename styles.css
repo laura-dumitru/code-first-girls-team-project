@@ -273,4 +273,40 @@ form textarea {
   h1 {
     color: green;
   }
+  body {
+    font-size: 12px;
+  }
+  h1,
+  h2 {
+    color: blue;
+    margin: 24px;
+  }
+
+  hr {
+    margin: 0 auto;
+  }
+
+  .image-container {
+    flex-direction: column;
+  }
+  .image-container img {
+    max-width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .videos {
+    max-width: 100%;
+    margin: 0 24px;
+  }
+  .videos iframe {
+    max-width: 100%;
+  }
+
+  .yoga-container button {
+    width: 160px;
+  }
+
+  .last-item {
+    margin-bottom: 100px;
+  }
 }
