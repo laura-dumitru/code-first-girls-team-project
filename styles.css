@@ -44,7 +44,7 @@ h1,
 h2,
 h3 {
   text-align: center;
-  margin: 32px;
+  margin: 32px 0;
 }
 h1,
 h2 {
@@ -83,14 +83,15 @@ p {
   line-height: 1.5;
 }
 
-.flexbox-container {
+.flexbox-container,
+.image-container {
   display: flex;
   max-width: 960px;
   margin: 0 auto;
   flex-direction: row;
-  padding: 32px;
+  padding: 0 24px;
 }
-.flexbox-container img {
+.image-container img {
   max-width: 50%;
   margin-right: 16px;
 }
@@ -242,11 +243,28 @@ form textarea {
     margin: 0 auto;
   }
 
-  .last-item {
-    margin-bottom: 100px;
+  .image-container {
+    flex-direction: column;
   }
+  .image-container img {
+    max-width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .videos {
+    max-width: 100%;
+    margin: 0 24px;
+  }
+  .videos iframe {
+    max-width: 100%;
+  }
+
   .yoga-container button {
     width: 160px;
+  }
+
+  .last-item {
+    margin-bottom: 100px;
   }
 }
 
