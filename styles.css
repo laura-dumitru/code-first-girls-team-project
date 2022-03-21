@@ -120,7 +120,7 @@ p {
 }
 
 .videos,
-.recommendation,
+.sleep-videos,
 .sleep-steps {
   max-width: 40%;
   margin: 0 auto;
@@ -233,14 +233,14 @@ form textarea {
   body {
     font-size: 12px;
   }
+  nav a {
+    font-size: 12px;
+  }
+
   h1,
   h2 {
     color: blue;
-    margin: 24px;
-  }
-
-  hr {
-    margin: 0 auto;
+    margin: 16px;
   }
 
   .image-container {
@@ -251,39 +251,46 @@ form textarea {
     margin-bottom: 16px;
   }
 
-  .videos {
+  .videos,
+  .sleep-videos {
     max-width: 100%;
     margin: 0 24px;
   }
-  .videos iframe {
+  .videos iframe,
+  .sleep-videos iframe {
     max-width: 100%;
   }
 
   .yoga-container button {
-    width: 160px;
+    padding: 10px;
+    width: 144px;
   }
 
   .last-item {
-    margin-bottom: 100px;
+    margin-bottom: 200px;
+  }
+  .sleep-steps {
+    max-width: 100%;
+    margin: 0 24px;
   }
 }
 
 /* TABLET VERSION */
 @media only screen and (min-width: 320px) and (max-width: 768px) {
-  h1 {
+  h1,
+  h2 {
     color: green;
+    margin: 16px;
   }
+
   body {
     font-size: 12px;
   }
-  h1,
-  h2 {
-    color: blue;
-    margin: 24px;
+  nav a {
+    font-size: 12px;
   }
-
   hr {
-    margin: 0 auto;
+    margin-bottom: 16px;
   }
 
   .image-container {
@@ -294,19 +301,26 @@ form textarea {
     margin-bottom: 16px;
   }
 
-  .videos {
+  .videos,
+  .sleep-videos {
     max-width: 100%;
     margin: 0 24px;
   }
-  .videos iframe {
+  .videos iframe,
+  .sleep-videos iframe {
     max-width: 100%;
   }
 
   .yoga-container button {
-    width: 160px;
+    width: 144px;
+    padding: 10px;
   }
 
   .last-item {
-    margin-bottom: 100px;
+    margin-bottom: 200px;
+  }
+  .sleep-steps {
+    max-width: 100%;
+    margin: 0 24px;
   }
 }
