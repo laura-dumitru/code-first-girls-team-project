@@ -181,7 +181,7 @@ form button:hover {
   margin: 24px;
 }
 .yoga-container button,
-.contact-container button {
+.image-container.contact button {
   font-size: 16px;
   display: inline;
   background-color: #b2a2c2;
@@ -197,16 +197,11 @@ form button:hover {
   font-size: 16px;
   cursor: pointer;
 }
-.contact-container button {
+.image-container.contact button {
   margin: 0 auto;
   margin-bottom: 20px;
 }
 
-.contact-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 form {
   background-color: white;
   display: flex;
@@ -222,11 +217,6 @@ form textarea {
   margin: 8px 0;
   padding: 10px;
   outline: none;
-}
-
-.contact-container img {
-  max-width: 500px;
-  margin: 48px;
 }
 
 @media only screen and (max-width: 320px) {
@@ -272,6 +262,14 @@ form textarea {
   .sleep-steps {
     max-width: 100%;
     margin: 0 24px;
+  }
+  form {
+    margin: 0 auto;
+    margin-top: 32px;
+    width: 70%;
+  }
+  .image-container.contact button {
+    width: 160px;
   }
 }
 
@@ -322,5 +320,13 @@ form textarea {
   .sleep-steps {
     max-width: 100%;
     margin: 0 24px;
+  }
+  form {
+    margin: 0 auto;
+    margin-top: 32px;
+    width: 70%;
+  }
+  .image-container.contact button {
+    width: 160px;
   }
 }
