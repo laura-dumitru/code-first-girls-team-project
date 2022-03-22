@@ -1,9 +1,9 @@
 let contactHeader = document.getElementById("contact-header");
 let submitButton = document.querySelector(".submit");
 
-function contact() {
-  let name = document.getElementById("name").value;
-
+function contact(event) {
+  let name = document.getElementById("name").value.toUpperCase();
+  event.preventDefault();
   contactHeader.innerHTML = `Thank you ${name} for your message! We will be in touch soon!`;
 }
 
