@@ -181,7 +181,7 @@ form button:hover {
   margin: 24px;
 }
 .yoga-container button,
-.image-container.contact button {
+.image-container button {
   font-size: 16px;
   display: inline;
   background-color: #b2a2c2;
@@ -197,7 +197,7 @@ form button:hover {
   font-size: 16px;
   cursor: pointer;
 }
-.image-container.contact button {
+.image-container button {
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -206,8 +206,9 @@ form {
   background-color: white;
   display: flex;
   flex-direction: column;
-  width: 50%;
-  max-width: 400px;
+  width: 60%;
+  margin: 24px;
+  max-width: 500px;
   border-radius: 10px;
   border: 1px solid #b2a2c2;
   box-shadow: 2px 2px 8px rgba(138, 121, 152, 0.7); /*#8a7998*/
@@ -284,7 +285,7 @@ form textarea {
     margin-top: 32px;
     width: 100%;
   }
-  .image-container.contact button {
+  .image-container button {
     width: 160px;
     padding: 12px;
     font-size: 12px;
@@ -345,7 +346,7 @@ form textarea {
       margin-top: 32px;
       width: 80%;
     }
-    .image-container.contact button {
+    .image-container button {
       width: 160px;
       padding: 12px;
       font-size: 14px;
