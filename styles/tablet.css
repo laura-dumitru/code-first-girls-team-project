@@ -1,0 +1,60 @@
+@media only screen and (min-width: 414px) and (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
+  nav a {
+    font-size: 14px;
+  }
+
+  h1,
+  h2 {
+    color: green;
+    font-size: 24px;
+    margin: 16px;
+  }
+  hr {
+    margin: 24px auto;
+    width: 160px;
+  }
+
+  .image-container {
+    flex-direction: column;
+  }
+  .image-container img {
+    max-width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .videos,
+  .sleep-videos {
+    max-width: 100%;
+    margin: 0 24px;
+  }
+  .videos iframe,
+  .sleep-videos iframe {
+    max-width: 100%;
+  }
+
+  .yoga-container button {
+    width: 144px;
+    padding: 10px;
+  }
+
+  .last-item {
+    margin-bottom: 200px;
+  }
+  .sleep-steps {
+    max-width: 90%;
+    margin: 0 32px;
+  }
+  form {
+    margin: 0 auto;
+    margin-top: 32px;
+    width: 80%;
+  }
+  .image-container button {
+    width: 160px;
+    padding: 12px;
+    font-size: 14px;
+  }
+}
