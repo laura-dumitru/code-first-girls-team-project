@@ -19,6 +19,7 @@
 
   .image-container {
     flex-direction: column;
+    margin: 16px;
   }
   .image-container img {
     max-width: 100%;
