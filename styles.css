@@ -86,13 +86,24 @@ p {
 .flexbox-container,
 .image-container {
   display: flex;
-  max-width: 960px;
+  max-width: 1000px;
   margin: 0 auto;
   flex-direction: row;
   padding: 0 24px;
 }
+.flexbox-container {
+  max-width: 800px;
+}
+.flexbox-container img {
+  max-width: 40%;
+  margin-bottom: 8px;
+}
+.flexbox-container h3,
+.flexbox-container p {
+  margin: 4px;
+}
 .image-container img {
-  max-width: 50%;
+  max-width: 60%;
   margin-right: 16px;
 }
 .flexbox-container h3:hover {
@@ -139,7 +150,8 @@ p {
 .sleep-steps li .fa {
   font-size: 24px;
   color: #b2a2c2;
-  margin: 10px;
+  margin-right: 8px;
+  line-height: 1.5;
 }
 
 iframe {
