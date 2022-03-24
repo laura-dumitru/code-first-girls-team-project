@@ -98,15 +98,17 @@ p {
 
 .flexbox-container {
   max-width: 800px;
+  max-height: 500px;
 }
 .flexbox-container img {
-  max-width: 40%;
-  margin-bottom: 8px;
+  max-width: 30%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .flexbox-container h3,
 .flexbox-container p {
+  text-align: center;
   margin: 0;
-  margin-top: 4px;
 }
 .flexbox-container h3:hover {
   color: #6b5380;
