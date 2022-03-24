@@ -11,7 +11,7 @@
   h2 {
     color: blue;
     font-size: 20px;
-    margin: 12px;
+    margin: 14px;
   }
   hr {
     margin: 24px auto;
@@ -19,6 +19,7 @@
   }
   .image-container {
     flex-direction: column;
+    margin: 14px;
   }
   .image-container img {
     max-width: 100%;
