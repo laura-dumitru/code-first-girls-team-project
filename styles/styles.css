@@ -151,7 +151,6 @@ p {
 
 .sleep-steps li {
   list-style: none;
-  text-align: left;
 }
 .sleep-steps li .fa {
   font-size: 24px;
@@ -210,7 +209,7 @@ form button:hover {
   transition: all 200ms ease-in-out;
   margin: 10px auto;
   margin-right: 10px;
-  padding: 12px;
+  padding: 16px;
   border: 0;
   border-radius: 30px;
   width: 160px;
