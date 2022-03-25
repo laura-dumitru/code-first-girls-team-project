@@ -151,6 +151,7 @@ p {
 
 .sleep-steps li {
   list-style: none;
+  text-align: left;
 }
 .sleep-steps li .fa {
   font-size: 24px;

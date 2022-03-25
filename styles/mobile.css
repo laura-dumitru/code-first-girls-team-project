@@ -64,7 +64,7 @@
   }
 
   .last-item {
-    margin-bottom: 160px;
+    margin-bottom: 80px;
   }
   .sleep-steps {
     max-width: 90%;
@@ -85,6 +85,7 @@
     padding: 10px;
     font-size: 10px;
   }
+
   footer .fa {
     font-size: 18px;
   }
