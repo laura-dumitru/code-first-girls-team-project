@@ -6,12 +6,16 @@
     font-size: 14px;
   }
 
-  h1,
-  h2 {
+  h1 {
     color: green;
-    font-size: 24px;
-    margin: 16px;
+    font-size: 22px;
+    margin: 14px;
   }
+  h2 {
+    font-size: 18px;
+    margin: 12px;
+  }
+
   hr {
     margin: 24px auto;
     width: 160px;
@@ -42,20 +46,25 @@
   }
 
   .last-item {
-    margin-bottom: 200px;
+    margin-bottom: 160px;
   }
   .sleep-steps {
     max-width: 90%;
     margin: 0 32px;
   }
+  .sleep-steps li .fa {
+    font-size: 20px;
+    margin-right: 4px;
+  }
   form {
     margin: 0 auto;
+    font-size: 12px;
     margin-top: 32px;
     width: 80%;
   }
   .image-container button {
-    width: 160px;
-    padding: 12px;
-    font-size: 14px;
+    width: 120px;
+    padding: 10px;
+    font-size: 12px;
   }
 }
