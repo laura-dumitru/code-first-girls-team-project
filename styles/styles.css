@@ -148,6 +148,7 @@ p {
 .sleep-steps {
   max-width: 50%;
 }
+
 .sleep-steps li {
   list-style: none;
 }
@@ -198,19 +199,19 @@ form button:hover {
 }
 .yoga-container button,
 .image-container button {
-  font-size: 16px;
+  font-size: 14px;
   display: inline;
   background-color: #b2a2c2;
   color: white;
   transition: all 200ms ease-in-out;
   margin: 10px auto;
   margin-right: 10px;
-  padding: 20px;
+  padding: 12px;
   border: 0;
   border-radius: 30px;
-  width: 200px;
+  width: 160px;
   outline: none;
-  font-size: 16px;
+  font-size: 14px;
   cursor: pointer;
 }
 .image-container button {
@@ -222,16 +223,18 @@ form {
   background-color: white;
   display: flex;
   flex-direction: column;
+  font-size: 14px;
   width: 60%;
-  margin: 24px;
-  max-width: 500px;
+  margin: 6px;
+  margin-left: 32px;
+  max-width: 400px;
   border-radius: 10px;
   border: 1px solid #b2a2c2;
   box-shadow: 2px 2px 8px rgba(138, 121, 152, 0.7); /*#8a7998*/
 }
 form input,
 form textarea {
-  margin: 8px 0;
+  margin: 4px 0;
   padding: 10px;
   outline: none;
 }
