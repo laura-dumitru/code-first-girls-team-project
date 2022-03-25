@@ -183,6 +183,9 @@ footer p {
 footer a {
   color: white;
 }
+footer .fa {
+  font-size: 22px;
+}
 
 .yoga-container button:hover,
 form button:hover {

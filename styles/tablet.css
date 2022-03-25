@@ -67,4 +67,7 @@
     padding: 10px;
     font-size: 12px;
   }
+  footer .fa {
+    font-size: 20px;
+  }
 }

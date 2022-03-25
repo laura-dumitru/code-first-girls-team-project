@@ -85,4 +85,7 @@
     padding: 10px;
     font-size: 10px;
   }
+  footer .fa {
+    font-size: 18px;
+  }
 }
