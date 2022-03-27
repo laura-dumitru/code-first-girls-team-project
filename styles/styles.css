@@ -15,7 +15,7 @@ body {
 }
 
 nav {
-  background-color: #b2a2c2;
+  background-color: #8a7998;
   padding: 24px;
 }
 nav li {
@@ -34,6 +34,7 @@ nav a {
 .contact {
   margin-left: 10px;
 }
+
 input,
 textarea {
   border: none !important;
@@ -223,7 +224,7 @@ form {
   flex-direction: column;
   font-size: 14px;
   width: 60%;
-  margin: 6px;
+  margin: 8px;
   margin-left: 32px;
   max-width: 400px;
   border-radius: 10px;
