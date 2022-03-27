@@ -102,8 +102,8 @@ p {
 }
 .flexbox-container img {
   max-width: 40%;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 6px;
+  margin-bottom: 6px;
 }
 .flexbox-container h3,
 .flexbox-container p {
@@ -113,9 +113,6 @@ p {
 }
 .flexbox-container h3:hover {
   color: #6b5380;
-}
-.section-text {
-  padding: 10px;
 }
 
 .row {
@@ -172,8 +169,8 @@ footer {
   color: white;
   background-color: #bfd38f;
   padding: 24px;
-  text-align: center;
   position: fixed;
+  text-align: center;
   bottom: 0;
   width: 100%;
 }
@@ -238,7 +235,4 @@ form textarea {
   margin: 4px 0;
   padding: 10px;
   outline: none;
-}
-#contact-header {
-  font-size: 40pts;
 }
