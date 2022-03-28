@@ -71,7 +71,7 @@ a {
   color: #261e2d;
 }
 a:hover {
-  color: #6b5380;
+  color: #d2897b;
 }
 
 img {
@@ -244,6 +244,7 @@ form {
 }
 form input,
 form textarea {
+  font-family: "Mulish", sans-serif;
   margin: 4px 0;
   padding: 10px;
   outline: none;
