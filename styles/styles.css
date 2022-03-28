@@ -47,6 +47,10 @@ h3 {
   text-align: center;
   margin: 24px 0;
 }
+.yoga-container h3:first-child {
+  margin-top: 0;
+}
+
 h1,
 h2 {
   font-weight: 700;
@@ -78,7 +82,7 @@ img {
 hr {
   border: 2px solid #bfd38f;
   width: 240px;
-  margin: 20px auto;
+  margin: 32px auto;
 }
 p {
   line-height: 1.5;
@@ -103,8 +107,6 @@ p {
 }
 .flexbox-container img {
   max-width: 40%;
-  margin-top: 6px;
-  margin-bottom: 6px;
 }
 .flexbox-container h3,
 .flexbox-container p {
@@ -114,6 +116,15 @@ p {
 }
 .flexbox-container h3:hover {
   color: #6b5380;
+}
+
+.meditation-container {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.column-left {
+  margin-right: 16px;
 }
 
 .row {
@@ -127,7 +138,7 @@ p {
 .flex-item-5,
 .flex-item-6 {
   border: 1px solid #b2a2c2;
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: 2px 2px 8px rgba(138, 121, 152, 0.7); /*#8a7998*/
   margin: 16px;
 }
