@@ -89,13 +89,15 @@ p {
 }
 
 .flexbox-container,
-.image-container {
+.image-container,
+.image-container-contact {
   display: flex;
   flex-direction: row;
   max-width: 960px;
   margin: 0 auto;
 }
-.image-container img {
+.image-container img,
+.image-container-contact img {
   max-height: 256px;
   margin-right: 16px;
   margin-top: 6px;
@@ -208,7 +210,8 @@ form button:hover {
 }
 
 .yoga-container button,
-.image-container button {
+.image-container button,
+.image-container-contact button {
   font-size: 14px;
   display: inline;
   background-color: #b2a2c2;
@@ -224,7 +227,8 @@ form button:hover {
   font-size: 14px;
   cursor: pointer;
 }
-.image-container button {
+.image-container button,
+.image-container-contact button {
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -238,14 +242,15 @@ form {
   margin: 8px;
   margin-left: 32px;
   max-width: 400px;
-  border-radius: 10px;
+  max-height: 400px;
+  border-radius: 20px;
   border: 1px solid #b2a2c2;
   box-shadow: 2px 2px 8px rgba(138, 121, 152, 0.7); /*#8a7998*/
 }
 form input,
 form textarea {
   font-family: "Mulish", sans-serif;
-  margin: 4px 0;
+  margin: 15px 0;
   padding: 10px;
   outline: none;
 }
