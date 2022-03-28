@@ -70,13 +70,9 @@ a {
   text-decoration: none;
   color: #261e2d;
 }
-a:hover {
-  color: #d2897b;
-}
 
 img {
   display: block;
-  margin: 0 auto;
 }
 
 hr {
@@ -109,6 +105,8 @@ p {
 }
 .flexbox-container img {
   max-width: 40%;
+  margin: 0 auto;
+  margin-top: 10px;
 }
 .flexbox-container h3,
 .flexbox-container p {
@@ -119,11 +117,18 @@ p {
 .flexbox-container h3:hover {
   color: #6b5380;
 }
+.flexbox-container a:hover {
+  color: #8a7998;
+}
 
-.meditation-container {
+.meditation-container,
+.sleep-container {
   display: flex;
   max-width: 960px;
   margin: 0 auto;
+}
+.sleep-container {
+  display: flex;
 }
 .column-left {
   margin-right: 16px;
@@ -146,8 +151,7 @@ p {
 }
 
 .videos,
-.sleep-videos,
-.sleep-steps {
+.sleep-videos {
   max-width: 40%;
   margin: 0 auto;
 }
@@ -156,18 +160,15 @@ p {
   text-align: center;
   margin: 24px;
 }
-.sleep-steps {
-  max-width: 50%;
-}
 
-.sleep-steps li {
-  list-style: none;
-}
-.sleep-steps li .fa {
+.sleep-container .fa {
   font-size: 24px;
   color: #d2897b;
   margin-right: 6px;
   line-height: 1.5;
+}
+.step {
+  padding: 6px;
 }
 
 iframe {
@@ -193,6 +194,9 @@ footer p {
 }
 footer a {
   color: white;
+}
+footer a:hover {
+  color: #8a7998;
 }
 footer .fa {
   font-size: 22px;
