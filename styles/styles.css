@@ -262,3 +262,7 @@ form textarea {
   outline: none;
   resize: none;
 }
+.about-us {
+  max-width: 960px;
+  margin: 0 auto;
+}
