@@ -2,9 +2,16 @@
   body {
     font-size: 12px;
   }
+
+  nav {
+    padding: 16px;
+  }
   nav a {
     font-size: 12px;
-    margin-right: 4px;
+  }
+  .logo p {
+    font-size: 12px;
+    white-space: normal;
   }
 
   h1 {
@@ -37,8 +44,8 @@
   .flexbox-container,
   .yoga-container,
   .sleep-container {
-    margin-left: 16px;
-    margin-right: 16px;
+    margin-left: 14px;
+    margin-right: 14px;
   }
   .flexbox-container img {
     margin-top: 10px;
@@ -73,11 +80,11 @@
   .last-item {
     margin-bottom: 120px;
   }
-  .sleep-steps {
-    max-width: 90%;
-    margin: 0 32px;
+  .step {
+    padding: 4px;
   }
-  .sleep-steps li .fa {
+  .step .fa,
+  .fa-clock:before {
     font-size: 16px;
     margin-right: 4px;
   }

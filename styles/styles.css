@@ -16,27 +16,29 @@ body {
 
 nav {
   background-color: #8a7998;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 24px;
 }
-nav li {
-  display: inline;
-}
 nav a {
-  color: white;
   font-size: 16px;
   text-decoration: none;
-}
-
-.about,
-.contact {
-  position: relative;
-  float: right;
-}
-.contact {
-  margin-left: 10px;
+  color: white;
+  margin-left: 12px;
 }
 .logo {
-  margin-left: 64px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+}
+.logo img {
+  max-height: 36px;
+}
+.logo p {
+  white-space: nowrap;
 }
 
 input,
@@ -99,8 +101,7 @@ p {
 .image-container img,
 .image-container-contact img {
   max-height: 256px;
-  margin-right: 16px;
-  margin-top: 6px;
+  margin-right: 32px;
 }
 
 .flexbox-container {
@@ -116,7 +117,6 @@ p {
 .flexbox-container p {
   text-align: center;
   margin: 0;
-  padding: 4px;
 }
 .flexbox-container h3:hover {
   color: #6b5380;
@@ -152,6 +152,7 @@ p {
   border-radius: 20px;
   box-shadow: 2px 2px 8px rgba(138, 121, 152, 0.7); /*#8a7998*/
   margin: 16px;
+  padding: 12px;
 }
 
 .videos,
@@ -242,15 +243,14 @@ form button:hover {
 }
 
 form {
-  background-color: white;
   display: flex;
   flex-direction: column;
   font-size: 14px;
+  background-color: white;
   width: 60%;
-  margin: 8px;
-  margin-left: 32px;
-  max-width: 400px;
-  max-height: 400px;
+  overflow: hidden;
+  max-width: 448px;
+  padding: 0 16px;
   border-radius: 20px;
   border: 1px solid #b2a2c2;
   box-shadow: 2px 2px 8px rgba(138, 121, 152, 0.7); /*#8a7998*/
@@ -258,7 +258,8 @@ form {
 form input,
 form textarea {
   font-family: "Mulish", sans-serif;
-  margin: 15px 0;
+  margin: 16px 0;
   padding: 10px;
   outline: none;
+  resize: none;
 }
