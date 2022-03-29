@@ -9,6 +9,9 @@
   nav a {
     font-size: 12px;
   }
+  .logo img {
+    max-height: 24px;
+  }
   .logo p {
     font-size: 12px;
     white-space: normal;

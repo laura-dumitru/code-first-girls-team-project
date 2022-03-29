@@ -20,6 +20,9 @@
     margin: 24px auto;
     width: 160px;
   }
+  .logo img {
+    max-height: 24px;
+  }
 
   .image-container {
     flex-direction: column;
