@@ -28,6 +28,10 @@
   .image-container img {
     max-width: 100%;
     margin-bottom: 16px;
+    margin-right: 0;
+  }
+  .image-container p {
+    margin-top: 12px;
   }
 
   .videos,
@@ -47,16 +51,20 @@
   .yoga-container h3 {
     margin: 16px;
   }
+  .sleep-container,
+  .meditation-container {
+    margin: 16px;
+  }
 
   .last-item {
     margin-bottom: 160px;
   }
-  .sleep-steps {
-    max-width: 90%;
-    margin: 0 32px;
+  .step {
+    padding: 6px;
   }
-  .sleep-steps li .fa {
-    font-size: 20px;
+  .step .fa,
+  .fa-clock:before {
+    font-size: 18px;
     margin-right: 4px;
   }
   form {

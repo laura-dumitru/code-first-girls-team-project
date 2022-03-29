@@ -24,17 +24,21 @@
   .image-container {
     flex-direction: column;
   }
+  .image-container p {
+    margin-top: 12px;
+  }
 
   .image-container img {
     max-width: 100%;
     margin-bottom: 16px;
+    margin-right: 0;
   }
   .image-container,
   .flexbox-container,
   .yoga-container,
-  .sleep-container .sleep-steps {
-    margin-left: 12px;
-    margin-right: 12px;
+  .sleep-container {
+    margin-left: 16px;
+    margin-right: 16px;
   }
   .flexbox-container img {
     margin-top: 10px;
