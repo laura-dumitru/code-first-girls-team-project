@@ -245,7 +245,6 @@ form button:hover {
 form {
   display: flex;
   flex-direction: column;
-  font-size: 14px;
   background-color: white;
   width: 60%;
   overflow: hidden;
