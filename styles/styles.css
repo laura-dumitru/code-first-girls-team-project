@@ -10,8 +10,10 @@ body {
   font-weight: 300;
   font-size: 18pts;
   background-image: url("../images/background.svg");
+  background-repeat: no-repeat;
   background-size: 100%;
   background-position: right 56px;
+  background-color: #fcffef;
 }
 
 nav {
