@@ -9,9 +9,9 @@ body {
   font-family: "Mulish", sans-serif;
   font-weight: 300;
   font-size: 18pts;
-  background: linear-gradient(#f7eeff, #fbfff0);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-image: url("../images/background.svg");
+  background-size: 100%;
+  background-position: right 56px;
 }
 
 nav {

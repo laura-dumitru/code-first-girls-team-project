@@ -1,6 +1,7 @@
 @media only screen and (max-width: 414px) {
   body {
     font-size: 12px;
+    background: linear-gradient(#f7eeff, #fbfff0);
   }
 
   nav {
