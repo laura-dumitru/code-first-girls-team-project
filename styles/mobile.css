@@ -98,9 +98,6 @@
     margin-top: 24px;
     width: 90%;
   }
-  input#name {
-    color: red;
-  }
 
   .image-container button {
     width: 120px;
@@ -108,9 +105,6 @@
     font-size: 10px;
   }
 
-  footer {
-    text-align: center;
-  }
   footer .fa {
     font-size: 18px;
   }
