@@ -111,7 +111,7 @@ p {
   max-height: 500px;
 }
 .flexbox-container img {
-  max-width: 40%;
+  max-width: 45%;
   margin: 0 auto;
   margin-top: 10px;
 }
@@ -119,6 +119,7 @@ p {
 .flexbox-container p {
   text-align: center;
   margin: 0;
+  margin-top: 4px;
 }
 .flexbox-container h3:hover {
   color: #6b5380;
