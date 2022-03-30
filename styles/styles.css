@@ -269,7 +269,8 @@ form textarea {
   margin: 0 auto;
 }
 .text {
-  max-width: 960px;
   text-align: left;
+  max-width: 960px;
   margin: 0 auto;
+  display: block;
 }
