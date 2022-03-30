@@ -109,4 +109,7 @@
   footer .fa {
     font-size: 18px;
   }
+  .about-us p {
+    margin: 16px;
+  }
 }
