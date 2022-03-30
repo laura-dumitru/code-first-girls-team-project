@@ -56,7 +56,7 @@ h3 {
   margin: 24px 0;
 }
 .yoga-container h3:first-child {
-  margin-top: 0;
+  margin-top: 16px;
 }
 
 h1,
@@ -168,7 +168,8 @@ p {
   margin: 24px;
 }
 
-.sleep-container .fa {
+.sleep-container .fa,
+.meditation-container .fa {
   font-size: 24px;
   color: #d2897b;
   margin-right: 6px;
@@ -238,6 +239,7 @@ form button:hover {
   font-size: 14px;
   cursor: pointer;
 }
+
 .image-container button,
 .image-container-contact button {
   margin: 0 auto;
