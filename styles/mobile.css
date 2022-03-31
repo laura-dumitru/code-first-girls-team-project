@@ -46,24 +46,10 @@
     margin-bottom: 16px;
     margin-right: 0;
   }
-  .image-container,
-  .flexbox-container,
-  .yoga-container,
-  .sleep-container,
-  .meditation-container {
-    margin-left: 14px;
-    margin-right: 14px;
-  }
-  .flexbox-container img {
-    margin-top: 10px;
-  }
-  .flex-item-1,
-  .flex-item-2,
-  .flex-item-3,
-  .flex-item-4,
-  .flex-item-5,
-  .flex-item-6 {
-    margin: 8px;
+
+  .flexbox-container {
+    flex-direction: column;
+    gap: 0;
   }
 
   .videos,
@@ -107,6 +93,9 @@
     font-size: 10px;
   }
 
+  footer {
+    margin-top: 320px;
+  }
   footer .fa {
     font-size: 18px;
   }
