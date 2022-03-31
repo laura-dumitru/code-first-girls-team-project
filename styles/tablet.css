@@ -31,7 +31,6 @@
 
   .image-container {
     flex-direction: column;
-    margin: 16px;
   }
   .image-container img {
     max-width: 100%;
@@ -85,17 +84,15 @@
     padding: 10px;
     font-size: 12px;
   }
-  footer {
-    text-align: center;
-  }
   footer .fa {
     font-size: 20px;
   }
-}
-.about-us p {
-  margin: 16px;
-}
 
-.meditation-container .fa {
-  font-size: 18px;
+  .about-us p {
+    margin: 16px;
+  }
+
+  .meditation-container .fa {
+    font-size: 18px;
+  }
 }
