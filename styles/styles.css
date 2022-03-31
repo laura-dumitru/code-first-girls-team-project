@@ -99,6 +99,7 @@ p {
   flex-direction: row;
   max-width: 960px;
   margin: 0 auto;
+  padding: 0 16px;
 }
 .image-container img,
 .image-container-contact img {
@@ -109,23 +110,30 @@ p {
 .flexbox-container {
   max-width: 760px;
   max-height: 500px;
+  gap: 16px;
 }
 .flexbox-container img {
-  max-width: 45%;
-  margin: 0 auto;
-  margin-top: 10px;
+  max-width: 40%;
+  margin-right: 16px;
 }
 .flexbox-container h3,
 .flexbox-container p {
-  text-align: center;
+  text-align: left;
   margin: 0;
-  margin-top: 4px;
 }
 .flexbox-container h3:hover {
   color: #6b5380;
 }
 .flexbox-container a:hover {
   color: #8a7998;
+}
+.flexbox-container a {
+  display: flex;
+  margin-bottom: 16px;
+  padding: 16px;
+  border-radius: 20px;
+  border: 1px solid #b2a2c2;
+  box-shadow: 2px 2px 8px rgba(138, 121, 152, 0.7); /*#8a7998*/
 }
 
 .meditation-container,
@@ -134,28 +142,14 @@ p {
   max-width: 960px;
   margin: 0 auto;
 }
+.meditation-container p {
+  margin-bottom: 6px;
+}
 .sleep-container {
   display: flex;
 }
 .column-left {
   margin-right: 16px;
-}
-
-.row {
-  width: 50%;
-}
-
-.flex-item-1,
-.flex-item-2,
-.flex-item-3,
-.flex-item-4,
-.flex-item-5,
-.flex-item-6 {
-  border: 1px solid #b2a2c2;
-  border-radius: 20px;
-  box-shadow: 2px 2px 8px rgba(138, 121, 152, 0.7); /*#8a7998*/
-  margin: 16px;
-  padding: 12px;
 }
 
 .videos,
@@ -185,18 +179,13 @@ iframe {
   margin: 0 auto;
 }
 
-.last-item {
-  margin-bottom: 200px;
-}
-
 footer {
   color: white;
   background-color: #bfd38f;
   padding: 24px;
-  position: fixed;
   text-align: center;
-  bottom: 0;
   width: 100%;
+  margin-top: 160px;
 }
 footer p {
   margin-bottom: 10px;
