@@ -8,12 +8,17 @@ body {
   color: #261e2d;
   font-family: "Mulish", sans-serif;
   font-weight: 300;
-  font-size: 18pts;
+  font-size: 16px;
   background-image: url("../images/background.svg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: right 56px;
   background-color: #fcffef;
+}
+body > div,
+body > p,
+body > ul {
+  padding: 0 16px;
 }
 
 nav {
@@ -43,20 +48,11 @@ nav a {
   white-space: nowrap;
 }
 
-input,
-textarea {
-  border: none !important;
-  background-color: white !important;
-}
-
 h1,
 h2,
 h3 {
   text-align: center;
   margin: 24px 0;
-}
-.yoga-container h3:first-child {
-  margin-top: 16px;
 }
 
 h1,
@@ -64,14 +60,14 @@ h2 {
   font-weight: 700;
 }
 h1 {
-  font-size: 40pts;
+  font-size: 32px;
 }
 h2 {
-  font-size: 18pts;
+  font-size: 24px;
 }
 h3 {
   font-weight: 300;
-  font-size: 24pts;
+  font-size: 20px;
 }
 
 a {
@@ -91,6 +87,11 @@ hr {
 p {
   line-height: 1.5;
 }
+input,
+textarea {
+  border: none !important;
+  background-color: white !important;
+}
 
 .flexbox-container,
 .image-container,
@@ -99,7 +100,6 @@ p {
   flex-direction: row;
   max-width: 960px;
   margin: 0 auto;
-  padding: 0 16px;
 }
 .image-container img,
 .image-container-contact img {
@@ -121,12 +121,7 @@ p {
   text-align: left;
   margin: 0;
 }
-.flexbox-container h3:hover {
-  color: #6b5380;
-}
-.flexbox-container a:hover {
-  color: #8a7998;
-}
+
 .flexbox-container a {
   display: flex;
   margin-bottom: 16px;
@@ -135,6 +130,9 @@ p {
   border: 1px solid #b2a2c2;
   box-shadow: 2px 2px 8px rgba(138, 121, 152, 0.7); /*#8a7998*/
 }
+.flexbox-container a:hover {
+  color: #8a7998;
+}
 
 .meditation-container,
 .sleep-container {
@@ -142,14 +140,24 @@ p {
   max-width: 960px;
   margin: 0 auto;
 }
-.meditation-container p {
-  margin-bottom: 6px;
+.meditation-container .step,
+.sleep-container .step {
+  padding: 4px;
 }
+
 .sleep-container {
   display: flex;
 }
 .column-left {
-  margin-right: 16px;
+  margin-right: 10px;
+}
+
+.sleep-container .fa,
+.meditation-container .fa {
+  font-size: 24px;
+  color: #d2897b;
+  margin-right: 6px;
+  line-height: 1.5;
 }
 
 .videos,
@@ -160,44 +168,12 @@ p {
 
 .videos h2 {
   text-align: center;
-  margin: 24px;
-}
-
-.sleep-container .fa,
-.meditation-container .fa {
-  font-size: 24px;
-  color: #d2897b;
-  margin-right: 6px;
-  line-height: 1.5;
-}
-.step {
-  padding: 6px;
+  margin: 16px;
 }
 
 iframe {
   padding: 32px 0;
   margin: 0 auto;
-}
-
-footer {
-  color: white;
-  background-color: #bfd38f;
-  padding: 24px;
-  text-align: center;
-  width: 100%;
-  margin-top: 160px;
-}
-footer p {
-  margin-bottom: 10px;
-}
-footer a {
-  color: white;
-}
-footer a:hover {
-  color: #8a7998;
-}
-footer .fa {
-  font-size: 22px;
 }
 
 .yoga-container button:hover,
@@ -209,6 +185,9 @@ form button:hover {
   max-width: 800px;
   margin: 0 auto;
   padding: 10px;
+}
+.yoga-container h3:first-child {
+  margin-top: 16px;
 }
 
 .yoga-container button,
@@ -265,4 +244,26 @@ form textarea {
   max-width: 960px;
   margin: 0 auto;
   display: block;
+}
+
+footer {
+  color: white;
+  background-color: #bfd38f;
+  padding: 24px;
+  text-align: center;
+  width: 100%;
+  margin-top: 160px;
+}
+footer p {
+  margin-bottom: 10px;
+}
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: #8a7998;
+}
+footer .fa {
+  font-size: 22px;
+  margin-left: 4px;
 }

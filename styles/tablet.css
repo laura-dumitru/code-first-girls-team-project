@@ -9,12 +9,15 @@
 
   h1 {
     color: green;
-    font-size: 22px;
+    font-size: 24px;
     margin: 14px;
   }
   h2 {
     font-size: 18px;
     margin: 12px;
+  }
+  h3 {
+    font-size: 16px;
   }
 
   hr {
@@ -44,7 +47,6 @@
   .videos,
   .sleep-videos {
     max-width: 100%;
-    margin: 0 24px;
   }
   .videos iframe,
   .sleep-videos iframe {
@@ -56,10 +58,6 @@
     padding: 10px;
   }
   .yoga-container h3 {
-    margin: 16px;
-  }
-  .sleep-container,
-  .meditation-container {
     margin: 16px;
   }
 
@@ -86,10 +84,6 @@
   }
   footer .fa {
     font-size: 20px;
-  }
-
-  .about-us p {
-    margin: 16px;
   }
 
   .meditation-container .fa {
