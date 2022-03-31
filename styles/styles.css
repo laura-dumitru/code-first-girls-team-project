@@ -176,10 +176,6 @@ iframe {
   margin: 0 auto;
 }
 
-.yoga-container button:hover,
-form button:hover {
-  background-color: #6b5380;
-}
 .yoga-container {
   text-align: center;
   max-width: 800px;
@@ -213,6 +209,10 @@ form button:hover {
 .image-container-contact button {
   margin: 0 auto;
   margin-bottom: 20px;
+}
+.yoga-container button:hover,
+form button:hover {
+  background-color: #6b5380;
 }
 
 form {
@@ -260,10 +260,10 @@ footer p {
 footer a {
   color: white;
 }
+
 footer a:hover {
   color: #8a7998;
 }
 footer .fa {
-  font-size: 22px;
-  margin-left: 4px;
+  font-size: 30px;
 }

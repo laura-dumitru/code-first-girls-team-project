@@ -82,6 +82,10 @@
     padding: 10px;
     font-size: 12px;
   }
+  footer a,
+  footer p {
+    font-size: 14px;
+  }
   footer .fa {
     font-size: 20px;
   }

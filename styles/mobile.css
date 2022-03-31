@@ -101,6 +101,12 @@
   footer .fa {
     font-size: 18px;
   }
+
+  footer a,
+  footer p {
+    font-size: 12px;
+  }
+
   .about-us p {
     margin: 16px;
   }
