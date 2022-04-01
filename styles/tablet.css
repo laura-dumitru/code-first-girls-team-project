@@ -46,17 +46,13 @@
 
   .videos,
   .sleep-videos {
-    max-width: 100%;
+    width: 100%;
   }
   .videos iframe,
   .sleep-videos iframe {
-    max-width: 100%;
+    width: 100%;
   }
 
-  .yoga-container button {
-    width: 144px;
-    padding: 10px;
-  }
   .yoga-container h3 {
     margin: 16px;
   }
@@ -82,6 +78,12 @@
     padding: 10px;
     font-size: 12px;
   }
+
+  .image-container img,
+  .image-container-contact img {
+    max-height: none;
+  }
+
   footer a,
   footer p {
     font-size: 14px;

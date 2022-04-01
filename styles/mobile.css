@@ -66,14 +66,9 @@
   .yoga-container {
     padding: 0;
   }
-  .yoga-container button {
-    padding: 8px;
-    font-size: 12px;
-    width: 100px;
-  }
 
   .last-item {
-    margin-bottom: 120px;
+    margin-bottom: 100px;
   }
   .step {
     padding: 4px;
@@ -110,10 +105,12 @@
   .about-us p {
     margin: 16px;
   }
-  .text {
-    margin: 16px;
-  }
   .meditation-container .fa {
     font-size: 16px;
+  }
+
+  .quote-header {
+    text-align: center;
+    margin-top: 260px;
   }
 }

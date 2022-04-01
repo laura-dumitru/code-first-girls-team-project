@@ -162,7 +162,7 @@ textarea {
 
 .videos,
 .sleep-videos {
-  max-width: 40%;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -186,7 +186,6 @@ iframe {
   margin-top: 16px;
 }
 
-.yoga-container button,
 .image-container button,
 .image-container-contact button {
   font-size: 14px;
@@ -210,7 +209,7 @@ iframe {
   margin: 0 auto;
   margin-bottom: 20px;
 }
-.yoga-container button:hover,
+
 form button:hover {
   background-color: #6b5380;
 }
@@ -249,7 +248,7 @@ form textarea {
 footer {
   color: white;
   background-color: #bfd38f;
-  padding: 24px;
+  padding: 24px 0;
   text-align: center;
   width: 100%;
   margin-top: 160px;
@@ -267,3 +266,40 @@ footer a:hover {
 footer .fa {
   font-size: 30px;
 }
+
+li label {
+  color: white;
+  font-size: 16px;
+  padding: 8px;
+}
+h4,
+ul {
+  list-style: none;
+  text-align: left;
+}
+
+.ingredients {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 24px;
+  max-width: 480px;
+  color: white;
+  background-color: #b2a2c2;
+  border-radius: 20px;
+}
+.ingredients h4 {
+  margin-bottom: 8px;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+#quote,
+.quote-header {
+  text-align: center;
+  margin-top: 24px;
+}
+/*.recipe {
+  display: none;
+}*/
