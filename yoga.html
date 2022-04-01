@@ -44,57 +44,189 @@
       </p>
     </div>
     <div class="yoga-container">
-      <h3>Pick one thing you trying to achieve</h3>
+      <h3>
+        Below pick one thing your body needs and one area you want to focus on.
+      </h3>
       <hr />
 
-      <button>Relax & stretch</button>
-      <button>Move & energize</button>
-      <button>Focus & balance</button>
+      <div class="ingredients">
+        <div class="column row1">
+          <h4>What does your body need?</h4>
+          <ul>
+            <li>
+              <input type="checkbox" name="box1" onclick="filterRecipe()" />
+              <label for="box1">Stretch & relax</label>
+            </li>
+            <li>
+              <input type="checkbox" name="box2" onclick="filterRecipe()" />
 
-      <h3>Pick an area of the body you want to focus on</h3>
+              <label for="box2">Energize & move</label>
+            </li>
+            <li>
+              <input type="checkbox" name="box3" onclick="filterRecipe()" />
+              <label for="box3">Focus & balance</label>
+            </li>
+          </ul>
+        </div>
+
+        <div class="column row1">
+          <h4>Which area needs attention?</h4>
+          <ul>
+            <li>
+              <input type="checkbox" name="box4" onclick="filterRecipe()" />
+              <label for="box4">Neck & upper back</label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="box5" onclick="filterRecipe()" />
+              <label for="box5">Lower back & legs</label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="box6" onclick="filterRecipe()" />
+              <label for="box6">Core & full body</label>
+            </li>
+          </ul>
+        </div>
+      </div>
+
       <hr />
-      <button>Neck & upper back</button>
-      <button>Legs & lower back</button>
-      <button>Core & full body</button>
+
+      <div class="recipe" id="stretchRelaxNeck">
+        <h2>Stretch and relax with Yoga for neck & shoulders</h2>
+        <p>Tend to your upper body with this quick neck and shoulder relief.</p>
+        <hr />
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/SedzswEwpPw"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <div class="recipe" id="stretchRelaxLegs">
+        <h2>Yoga for tired legs</h2>
+        <p>Practice this to help your tired legs feel amazing!</p>
+        <hr />
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/2137wAXvufE"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <div class="recipe" id="stretchRelaxCore">
+        <h2>Stretch and relax movement medicine</h2>
+        <p>Calm soothing Yoga practice.</p>
+        <hr />
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/Enz98dDXQfY"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <div class="recipe" id="energizeNeck">
+        <h2>Energize your neck and upper back.</h2>
+        <p>Give your upper back some love.</p>
+        <hr />
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/lMTyp5npt78"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <div class="recipe" id="energizeLegs">
+        <h2>Let your legs feel the energy!</h2>
+        <p>Mobility session for the legs.</p>
+        <hr />
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/6s5MEhUblzQ"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <div class="recipe" id="energizeCore">
+        <h2>Movement medicine energy</h2>
+        <p>Find the energy you need to conquer your day!</p>
+        <hr />
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/F47hdaNXwT4"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <div class="recipe" id="balanceNeck">
+        <h2>Yoga for text neck</h2>
+        <p>Yoga to release tension in your neck.</p>
+        <hr />
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/JUP_YdYyfQw"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <div class="recipe" id="balanceLegs">
+        <h2>Balancing flow</h2>
+        <p>Feel free and balanced!</p>
+        <hr />
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/VmbhjS2ULK4"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <div class="recipe" id="balanceCore">
+        <h2>Full body flow</h2>
+        <p>Work on your balance and core strenght.</p>
+        <hr />
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/b1H3xO3x_Js"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
     </div>
-    <div class="videos last-item">
-      <h2>Gentle Relaxing Flow</h2>
-      <hr />
-      <p>
-        This easy feel good floor practice is designed to help support you in
-        any mood. It will move the body in all four directions to help you
-        stretch out, feel balanced, and gently move energy. You can make use of
-        a blanket to make it feel cozy.
-      </p>
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/jHZPtn15agE"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-
-      <h2>Yoga for Stress Management</h2>
-      <hr />
-      <p>
-        Bridge the gap between mind and body with Yoga for stress management.
-        This 32-minute yoga practice session is great for those needing to find
-        balance and calm in their lives. This practice is also great for
-        preventative care.
-      </p>
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/_zbtKeeAa-Y"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-    </div>
-
     <footer>
       <p>CODED BY <a href="https://codefirstgirls.com">CODE FIRST GIRLS</a></p>
       <a
