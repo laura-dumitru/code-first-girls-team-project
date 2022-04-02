@@ -89,6 +89,9 @@
   .meditation-container .fa {
     font-size: 18px;
   }
+  .yoga-container {
+    padding: 24px;
+  }
   .yoga-container li label {
     font-size: 12px;
   }
