@@ -15,10 +15,10 @@ body {
   background-position: right 56px;
   background-color: #fcffef;
 }
-body > div,
-body > p,
-body > ul {
+
+.main-container {
   padding: 0 16px;
+  max-width: 100vw;
 }
 
 nav {
@@ -168,7 +168,7 @@ textarea {
 
 .videos h2 {
   text-align: center;
-  margin: 16px;
+  margin: 24px;
 }
 
 iframe {
@@ -180,10 +180,6 @@ iframe {
   text-align: center;
   max-width: 800px;
   margin: 0 auto;
-  padding: 10px;
-}
-.yoga-container h3:first-child {
-  margin-top: 16px;
 }
 
 .image-container button,
@@ -278,7 +274,7 @@ ul {
   text-align: left;
 }
 
-.ingredients {
+.yoga-container {
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
@@ -288,7 +284,7 @@ ul {
   background-color: #b2a2c2;
   border-radius: 20px;
 }
-.ingredients h4 {
+.yoga-container h4 {
   margin-bottom: 8px;
 }
 

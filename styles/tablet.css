@@ -53,10 +53,6 @@
     width: 100%;
   }
 
-  .yoga-container h3 {
-    margin: 16px;
-  }
-
   .last-item {
     margin-bottom: 160px;
   }
@@ -72,11 +68,6 @@
     margin: 0 auto;
     margin-top: 32px;
     width: 80%;
-  }
-  .image-container button {
-    width: 120px;
-    padding: 10px;
-    font-size: 12px;
   }
 
   .image-container img,
@@ -94,5 +85,8 @@
 
   .meditation-container .fa {
     font-size: 18px;
+  }
+  .yoga-container li label {
+    font-size: 12px;
   }
 }

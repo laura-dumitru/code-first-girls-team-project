@@ -63,13 +63,7 @@
   .sleep-videos iframe {
     max-width: 100%;
   }
-  .yoga-container {
-    padding: 0;
-  }
 
-  .last-item {
-    margin-bottom: 100px;
-  }
   .step {
     padding: 4px;
   }
@@ -84,15 +78,6 @@
     width: 90%;
   }
 
-  .image-container button {
-    width: 120px;
-    padding: 12px;
-    font-size: 10px;
-  }
-
-  footer {
-    margin-top: 320px;
-  }
   footer .fa {
     font-size: 18px;
   }
@@ -111,6 +96,15 @@
 
   .quote-header {
     text-align: center;
-    margin-top: 260px;
+    margin-top: 280px;
+  }
+  .yoga-container label {
+    font-size: 12px;
+  }
+  .yoga-container {
+    padding: 12px;
+  }
+  .yoga-container li label {
+    padding: 0;
   }
 }
