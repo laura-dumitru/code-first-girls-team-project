@@ -63,6 +63,9 @@
   .sleep-videos iframe {
     max-width: 100%;
   }
+  .videos h2 {
+    margin: 16px;
+  }
 
   .step {
     padding: 4px;

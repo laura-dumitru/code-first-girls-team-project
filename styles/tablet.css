@@ -52,6 +52,9 @@
   .sleep-videos iframe {
     width: 100%;
   }
+  .videos h2 {
+    margin: 16px;
+  }
 
   .last-item {
     margin-bottom: 160px;
