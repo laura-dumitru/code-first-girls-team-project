@@ -72,6 +72,13 @@
     margin-top: 32px;
     width: 80%;
   }
+  form input,
+  form textarea {
+    font-size: 14px;
+  }
+  .image-container button {
+    font-size: 14px;
+  }
 
   .image-container img,
   .image-container-contact img {

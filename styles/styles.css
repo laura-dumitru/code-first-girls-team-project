@@ -235,6 +235,9 @@ form textarea {
   resize: none;
   font-size: 16px;
 }
+.image-container button {
+  font-size: 16px;
+}
 .about-us {
   max-width: 960px;
   margin: 0 auto;
@@ -271,7 +274,7 @@ footer .fa {
 li label {
   color: white;
   font-size: 16px;
-  padding: 8px;
+  padding: 6px;
 }
 
 ul {
@@ -293,9 +296,11 @@ ul {
   margin-bottom: 8px;
 }
 
-input[type="checkbox"] {
-  cursor: pointer;
+.yoga-container [type="checkbox"] {
+  width: 18px;
+  height: 20px;
 }
+
 #quote,
 .quote-header {
   text-align: center;

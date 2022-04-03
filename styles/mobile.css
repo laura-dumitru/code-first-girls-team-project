@@ -88,6 +88,13 @@
     margin-top: 24px;
     width: 90%;
   }
+  form input,
+  form textarea {
+    font-size: 12px;
+  }
+  .image-container button {
+    font-size: 12px;
+  }
 
   footer .fa {
     font-size: 18px;
