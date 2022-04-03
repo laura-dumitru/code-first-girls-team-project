@@ -54,6 +54,11 @@
     flex-direction: column;
     gap: 0;
   }
+  .anxiety-container,
+  .sleep-container,
+  .meditation-container {
+    flex-direction: column;
+  }
 
   .videos,
   .sleep-videos {
