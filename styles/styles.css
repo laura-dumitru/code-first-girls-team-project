@@ -135,25 +135,29 @@ textarea {
 }
 
 .meditation-container,
-.sleep-container {
+.sleep-container,
+.anxiety-container {
   display: flex;
   max-width: 960px;
   margin: 0 auto;
 }
+.anxiety-container .column-left {
+  max-width: 50%;
+}
+
 .meditation-container .step,
-.sleep-container .step {
+.sleep-container .step,
+.anxiety-container .step {
   padding: 4px;
 }
 
-.sleep-container {
-  display: flex;
-}
 .column-left {
   margin-right: 10px;
 }
 
 .sleep-container .fa,
-.meditation-container .fa {
+.meditation-container .fa,
+.anxiety-container .fa {
   font-size: 24px;
   color: #d2897b;
   margin-right: 6px;
