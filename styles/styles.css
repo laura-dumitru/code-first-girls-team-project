@@ -92,11 +92,6 @@ ul {
   list-style: none;
   text-align: left;
 }
-li label {
-  color: white;
-  font-size: 16px;
-  padding: 6px;
-}
 
 hr {
   border: 2px solid var(--footercolour);
@@ -200,27 +195,37 @@ iframe {
 }
 
 .yoga-container {
-  text-align: center;
-  max-width: 800px;
-  margin: 0 auto;
-}
-.yoga-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 16px;
+  max-width: 640px;
   margin: 0 auto;
-  padding: 40px;
-  max-width: 480px;
   color: white;
+}
+.yoga-container div {
+  padding: 24px;
   background-color: var(--buttoncolour);
   border-radius: 20px;
 }
-.yoga-container h4 {
-  margin-bottom: 8px;
+.yoga-container div:hover {
+  background: var(--buttonhover);
+  transition: all 200ms ease-in-out;
 }
-
+.yoga-container h4 {
+  margin-bottom: 12px;
+}
 .yoga-container [type="checkbox"] {
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
+  margin: 4px 0;
+  cursor: pointer;
+}
+.yoga-container label {
+  color: white;
+  position: relative;
+  top: -4px;
+  font-size: 16px;
+  padding-left: 8px;
 }
 
 .image-container button,
@@ -277,6 +282,19 @@ form textarea {
   display: block;
 }
 
+blockquote {
+  text-align: center;
+}
+blockquote i {
+  max-width: 960px;
+  margin: 0 auto;
+  font-family: "Dancing Script", cursive;
+  font-size: 22px;
+}
+blockquote cite {
+  font-style: normal;
+}
+
 footer {
   color: white;
   background-color: var(--footercolour);
@@ -297,13 +315,4 @@ footer a:hover {
 }
 footer .fa {
   font-size: 30px;
-}
-
-#quote,
-.quote-header {
-  text-align: center;
-}
-#quote {
-  font-family: "Dancing Script", cursive;
-  font-size: 22px;
 }
