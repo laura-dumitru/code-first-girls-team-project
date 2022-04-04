@@ -52,41 +52,67 @@
       <hr />
 
       <div class="yoga-container">
-        <div class="column row1">
+        <div>
           <h4>What does your body need?</h4>
           <ul>
             <li>
-              <input type="checkbox" name="box1" onclick="filterRecipe()" />
+              <input
+                type="checkbox"
+                name="stretch & relax"
+                onclick="filterVideo()"
+              />
               <label for="box1">Stretch & relax</label>
             </li>
-            <li>
-              <input type="checkbox" name="box2" onclick="filterRecipe()" />
 
-              <label for="box2">Energize & move</label>
-            </li>
             <li>
-              <input type="checkbox" name="box3" onclick="filterRecipe()" />
+              <input
+                type="checkbox"
+                name="move & energize"
+                onclick="filterVideo()"
+              />
+
+              <label for="box2">Move & energize</label>
+            </li>
+
+            <li>
+              <input
+                type="checkbox"
+                name="focus & balance"
+                onclick="filterVideo()"
+              />
               <label for="box3">Focus & balance</label>
             </li>
           </ul>
         </div>
 
-        <div class="column row1">
+        <div>
           <h4>Which area needs attention?</h4>
           <ul>
             <li>
-              <input type="checkbox" name="box4" onclick="filterRecipe()" />
-              <label for="box4">Neck & upper back</label>
+              <input
+                type="checkbox"
+                name="neck & upper body"
+                onclick="filterVideo()"
+              />
+              <label for="box4">Neck & upper body</label>
             </li>
 
             <li>
-              <input type="checkbox" name="box5" onclick="filterRecipe()" />
-              <label for="box5">Lower back & legs</label>
+              <input
+                type="checkbox"
+                name="legs & lower body"
+                onclick="filterVideo()"
+              />
+              <label for="box5">Legs & lower body</label>
             </li>
 
             <li>
-              <input type="checkbox" name="box6" onclick="filterRecipe()" />
-              <label for="box6">Core & full body</label>
+              <input
+                type="checkbox"
+                name="full body & core"
+                onclick="filterVideo()"
+              />
+              <label for="box6">Full body & core</label>
             </li>
           </ul>
         </div>
@@ -282,6 +308,6 @@
       src="https://kit.fontawesome.com/3d72a2e9e3.js"
       crossorigin="anonymous"
     ></script>
-    <script src="script.js"></script>
+    <script src="yoga.js"></script>
   </body>
 </html>
