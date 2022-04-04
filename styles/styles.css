@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 :root {
   --headercolour: #8a7998;
   --footercolour: #bfd38f;
@@ -219,7 +219,7 @@ iframe {
 }
 
 .yoga-container [type="checkbox"] {
-  width: 18px;
+  width: 20px;
   height: 20px;
 }
 
@@ -304,6 +304,6 @@ footer .fa {
   text-align: center;
 }
 #quote {
-  font-family: "Kalam", cursive;
+  font-family: "Dancing Script", cursive;
   font-size: 22px;
 }
