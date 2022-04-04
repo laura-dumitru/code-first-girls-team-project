@@ -65,24 +65,26 @@
   .meditation-container .fa {
     font-size: 16px;
   }
-  .yoga-container label {
-    font-size: 12px;
-  }
+
   .yoga-container {
     flex-direction: column;
-    max-width: 240px;
-    padding: 16px;
-  }
-  .yoga-container li label {
-    padding: 0;
-    margin: 6px;
-    margin-top: -200px;
+    max-width: 256px;
   }
   .yoga-container h4 {
-    text-align: left;
+    margin-bottom: 8px;
   }
-  .yoga-container div.column.row1 {
-    margin: 12px;
+  .yoga-container [type="checkbox"] {
+    margin: 2px 0;
+  }
+  .yoga-container label {
+    top: -2px;
+    font-size: 14px;
+    padding-left: 6px;
+  }
+
+  iframe {
+    padding: 0;
+    padding-top: 24px;
   }
 
   .videos,
@@ -94,7 +96,7 @@
     max-width: 100%;
   }
   .videos h2 {
-    margin: 16px;
+    margin: 24px;
   }
 
   .step {
@@ -132,10 +134,9 @@
   }
 
   .quote-header {
-    text-align: center;
-    margin-top: 300px;
+    margin-top: 256px;
   }
-  #quote {
+  blockquote {
     font-size: 18px;
   }
 }
