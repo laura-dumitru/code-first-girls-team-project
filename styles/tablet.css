@@ -43,6 +43,22 @@
   .image-container p {
     margin-top: 12px;
   }
+  .image-container button {
+    font-size: 14px;
+  }
+  .image-container img,
+  .image-container-contact img {
+    max-height: none;
+  }
+  .meditation-container .fa {
+    font-size: 18px;
+  }
+  .yoga-container {
+    padding: 24px;
+  }
+  .yoga-container li label {
+    font-size: 12px;
+  }
 
   .videos,
   .sleep-videos {
@@ -76,14 +92,6 @@
   form textarea {
     font-size: 14px;
   }
-  .image-container button {
-    font-size: 14px;
-  }
-
-  .image-container img,
-  .image-container-contact img {
-    max-height: none;
-  }
 
   footer a,
   footer p {
@@ -91,15 +99,5 @@
   }
   footer .fa {
     font-size: 20px;
-  }
-
-  .meditation-container .fa {
-    font-size: 18px;
-  }
-  .yoga-container {
-    padding: 24px;
-  }
-  .yoga-container li label {
-    font-size: 12px;
   }
 }
