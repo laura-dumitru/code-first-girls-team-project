@@ -1,11 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;700&display=swap");
-
+:root {
+  --headercolour: #8a7998;
+  --footercolour: #bfd38f;
+  --textcolour: #261e2d;
+  --iconscolour: #d2897b;
+  --buttoncolour: #b2a2c2;
+  --buttonhover: #6b5380;
+  --backgroundcolour: #fcffef;
+}
 * {
   margin: 0;
   padding: 0;
 }
 body {
-  color: #261e2d;
+  color: var(--textcolour);
   font-family: "Mulish", sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -13,7 +21,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: right 56px;
-  background-color: #fcffef;
+  background-color: var(--backgroundcolour);
 }
 
 .main-container {
@@ -22,7 +30,7 @@ body {
 }
 
 nav {
-  background-color: #8a7998;
+  background-color: var(--headercolour);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -72,15 +80,25 @@ h3 {
 
 a {
   text-decoration: none;
-  color: #261e2d;
+  color: var(--textcolour);
 }
 
 img {
   display: block;
 }
 
+ul {
+  list-style: none;
+  text-align: left;
+}
+li label {
+  color: white;
+  font-size: 16px;
+  padding: 6px;
+}
+
 hr {
-  border: 2px solid #bfd38f;
+  border: 2px solid var(--footercolour);
   width: 240px;
   margin: 32px auto;
 }
@@ -127,11 +145,11 @@ textarea {
   margin-bottom: 16px;
   padding: 16px;
   border-radius: 20px;
-  border: 1px solid #b2a2c2;
+  border: 1px solid var(--buttoncolour);
   box-shadow: 2px 2px 8px rgba(138, 121, 152, 0.7); /*#8a7998*/
 }
 .flexbox-container a:hover {
-  color: #8a7998;
+  color: var(--buttonhover);
 }
 
 .meditation-container,
@@ -159,7 +177,7 @@ textarea {
 .meditation-container .fa,
 .anxiety-container .fa {
   font-size: 24px;
-  color: #d2897b;
+  color: var(--iconscolour);
   margin-right: 6px;
   line-height: 1.5;
 }
@@ -185,33 +203,44 @@ iframe {
   max-width: 800px;
   margin: 0 auto;
 }
+.yoga-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 40px;
+  max-width: 480px;
+  color: white;
+  background-color: var(--buttoncolour);
+  border-radius: 20px;
+}
+.yoga-container h4 {
+  margin-bottom: 8px;
+}
+
+.yoga-container [type="checkbox"] {
+  width: 18px;
+  height: 20px;
+}
 
 .image-container button,
 .image-container-contact button {
-  font-size: 14px;
   display: inline;
-  background-color: #b2a2c2;
+  background-color: var(--buttoncolour);
   color: white;
+  font-size: 16px;
+  margin: 0 auto;
+  margin-bottom: 20px;
   transition: all 200ms ease-in-out;
-  margin: 10px auto;
-  margin-right: 10px;
   padding: 16px;
   border: 0;
   border-radius: 30px;
   width: 160px;
   outline: none;
-  font-size: 14px;
   cursor: pointer;
 }
 
-.image-container button,
-.image-container-contact button {
-  margin: 0 auto;
-  margin-bottom: 20px;
-}
-
 form button:hover {
-  background-color: #6b5380;
+  background-color: var(--buttonhover);
 }
 
 form {
@@ -223,7 +252,7 @@ form {
   max-width: 448px;
   padding: 0 16px;
   border-radius: 20px;
-  border: 1px solid #b2a2c2;
+  border: 1px solid var(--buttoncolour);
   box-shadow: 2px 2px 8px rgba(138, 121, 152, 0.7); /*#8a7998*/
 }
 form input,
@@ -235,9 +264,7 @@ form textarea {
   resize: none;
   font-size: 16px;
 }
-.image-container button {
-  font-size: 16px;
-}
+
 .about-us {
   max-width: 960px;
   margin: 0 auto;
@@ -251,7 +278,7 @@ form textarea {
 
 footer {
   color: white;
-  background-color: #bfd38f;
+  background-color: var(--footercolour);
   padding: 24px 0;
   text-align: center;
   width: 100%;
@@ -265,46 +292,13 @@ footer a {
 }
 
 footer a:hover {
-  color: #8a7998;
+  color: var(--buttonhover);
 }
 footer .fa {
   font-size: 30px;
-}
-
-li label {
-  color: white;
-  font-size: 16px;
-  padding: 6px;
-}
-
-ul {
-  list-style: none;
-  text-align: left;
-}
-
-.yoga-container {
-  display: flex;
-  justify-content: space-around;
-  margin: 0 auto;
-  padding: 40px;
-  max-width: 480px;
-  color: white;
-  background-color: #b2a2c2;
-  border-radius: 20px;
-}
-.yoga-container h4 {
-  margin-bottom: 8px;
-}
-
-.yoga-container [type="checkbox"] {
-  width: 18px;
-  height: 20px;
 }
 
 #quote,
 .quote-header {
   text-align: center;
 }
-/*.recipe {
-  display: none;
-}*/
