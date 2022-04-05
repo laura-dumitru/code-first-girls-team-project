@@ -228,6 +228,10 @@ iframe {
   padding-left: 8px;
 }
 
+#contact-header span {
+  text-transform: capitalize;
+}
+
 .image-container button,
 .image-container-contact button {
   display: inline;
